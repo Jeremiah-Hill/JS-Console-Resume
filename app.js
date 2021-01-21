@@ -4,6 +4,8 @@ let fullName = firstName + " " + lastName;
 let fullNameCaps = fullName.toUpperCase();
     console.log(fullNameCaps);
 
+    console.log(" ")
+
 displayDescription(fullNameCaps, "Web Development Student", "I love cats");
 
 function displayDescription(myName, myCareer, myDescription) {
@@ -11,6 +13,8 @@ function displayDescription(myName, myCareer, myDescription) {
     console.log("Career: " + myCareer);
     console.log("Description: " + myDescription + ".");
 }
+
+    console.log(" ")
 
 console.log("My Interests: ");
 displayInterests("Video Games");
@@ -23,6 +27,8 @@ function displayInterests(myInterest) {
     console.log("* " + myInterest);
 }
 
+console.log(" ")
+
 console.log("My Previous Experiences: ");
 displayPosition("Graduated from G.W. Carver High School in 2018.");
 displayPosition("Vice President for my Group's SkillsUSA.");
@@ -33,6 +39,8 @@ displayPosition("Traveled to Kentucky to compete in SkillsUSA Professional Devel
 function displayPosition(companyName) {
     console.log("* " + companyName + " ");
 }
+
+console.log(" ")
 
 console.log("My Skills: ");
 displaySkill("Spanish", true);
